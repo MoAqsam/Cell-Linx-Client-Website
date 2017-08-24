@@ -1,0 +1,117 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*Global Styles*/
+.About-me,.Projects {  
+  /* This section calls the slideInFromLeft animation we defined above */
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  padding: 30px;
+}
+html {
+	box-sizing:  border-box;
+	 background: url(../images/background-image.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: white;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+/*Home Page*/
+/**/
+/*Header*/
+.intro {
+	display: inline;
+	text-align: center;
+	font-size: 10px;
+	background-color: black;
+}
+.intro h1 { 
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding: 1px;
+  font-family: 'Raleway', cursive;
+  font-weight: 100;
+  position: relative;
+  background: -webkit-linear-gradient(left, black, #eee, black);
+  background: -moz-linear-gradient(left, black, #eee, black);
+  background: -ms-linear-gradient(left, black, #eee, black);
+  background: -o-linear-gradient(left, black, #eee, black);
+}
+
+.intro h1 a {
+  background: black;
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  letter-spacing: 30px;
+  color: white;
+	margin: 10px;
+	padding: 
+
+}
+
+
+/*Body*/
+
+.Links a:hover,a:active{
+	background-color: greenyellow;
+	color:black;
+}
+.Links a:link, a:visited{
+	 background-color: #000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.Links {
+	height: 100px;
+    width: 400px;
+	position: relative;
+	left: 50%;
+	text-align: center;
+    margin-left: -200px;
+	padding: 90px;
+	
+}
+/*About Me CSS*/
+.About-me {
+	
+	border-radius: 30%;
+	border: solid 10px greenyellow;
+	background-color: black;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.About-me p ,.About-me h1{
+	padding-left: 18px;
+	padding-right: 18px;
+	text-align: center;
+}
+/*Projects CSS*/
+.Projects {
+	text-align: center;
+	border: solid 15px yellowgreen;
+	background-color: black;
+	border-bottom-left-radius: 20%;
+	border-top-right-radius: 20%;
+	border-top-style: groove;
+	border-top-left-radius: 10%;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+#hover-github:hover{
+	color:yellowgreen;
+}
+
