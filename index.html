@@ -1,27 +1,125 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
-		<title>Aqsam's Main Page</title>
-		<link href="css/indexmain.css" type="text/css" rel="stylesheet">
-	</head>
-	
-	<header class="header">
-		
-	</header>
-	<body class="body">
-		<div class="intro">
-			<h1><a>Welcome to my Portfolio</a></h1>
-		</div>
-			<h2 style=" border-bottom-style: dotted; border-color: black; color: white; font-display: swap; text-align: center; border-">Muhammad Aqsam</h2>
-		<div class="Links">
-		<a href="AboutMe.html">About Me</a><br>
-		<a href="Projects.html">Projects</a>
-		</div>
-		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-		
-	</body>
-	<footer class="footer">
-	</footer>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cell City</title>
+  <link rel="stylesheet" href="./CSS/flexboxgrid.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!--Header-->
+  <header id="main-header">
+    <div class="container">
+        <div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+          <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+            <h1><span class="primary-text">Cell</span>City</h1>
+          </div>
+        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+          <nav id="navbar">
+            <ul>
+              <li class="current"><a href="index.html">Home</a></li>
+              <li><a href="HTML/about.html">About</a></li>
+              <li><a href="HTML/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--SHOWCASE-->
+  <section id="showcase">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-7 showcase-content">
+          <h1>Welcome to <span class="primary-text">Cell City</span></h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Features-->
+  <section id="features">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2>Services</h2>
+
+          <!--ROW 1-->
+          <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <i class="fa fa-dashboard"></i><br>
+              <h4>Fast Service</h4>
+            <p>We provide fast and quality service</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <i class="fa fa-question-circle-o"></i><br>
+              <h4>Quick Reply</h4>
+              <p>Message us and we reply within a day</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <i class="fa fa-rocket"></i><br>
+              <h4>Multiple Products</h4>
+              <p>We provide cheap accessories and multiple high-end phones</p>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--INFO SECTION-->
+  <section id="info">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <img src="IMG/iphone.png" alt="cell City">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <h2>Amazing Services</h2>
+          <ul>
+            <li><i class="fa fa-check"></i>CellPhone Plans</li>
+            <li><i class="fa fa-check"></i>CellPhone Repairs</li>
+            <li><i class="fa fa-check"></i>Home Internet</li>
+            <li><i class="fa fa-check"></i>Long Distance Minutes</li>
+            <li><i class="fa fa-check"></i>Android Boxes</li>
+            <li><i class="fa fa-check"></i>Authorized Chatr Dealers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Company-->
+  <section id="company">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <h4>Contact</h4>
+          <ul>
+            <li><i class="fa fa-phone"></i> 905-488-4800 or 416-727-1982</li>
+            <li><i class="fa fa-envelope"></i> hq533715@gmail.com </li>
+            <li><i class="fa fa-map"></i> 499 Ray lawson blvd</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="row center-xs center-sm center-md center-lg">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>Copyright &copy; 2017 | Cell City</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
